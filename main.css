@@ -104,7 +104,7 @@ body {
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     .conteudo {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 50% 50%;
     }
 
     section .container {
@@ -112,7 +112,7 @@ body {
     }
 
     header {
-        width: 60%;
+        width: 50%;
     }
 
     nav {
@@ -147,7 +147,7 @@ body {
 
     #products {
         margin-top: -80px;
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
     .produto {
@@ -156,10 +156,17 @@ body {
         
     }
 
-    .container-flex li {
-        width: auto;
-        text-align: center;
+    #products ul {
+        display: grid;
+        grid-template-columns: 0.75fr 1fr;
     }
 
-    
+    .container-flex li {
+        width: 90%;
+    }
+
+    button {
+        padding: 10px 5px;
+        margin: 0 auto;
+    }
 }
