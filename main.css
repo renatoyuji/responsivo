@@ -125,10 +125,10 @@ body {
 
     .logo {
         margin-bottom: 30px;
-        width:90%;
+        width: 90%;
     }
 
-    p {
+    #about p {
         width: 82.5%;
         padding-left: 20px;
     }
@@ -168,5 +168,52 @@ body {
     button {
         padding: 10px 5px;
         margin: 0 auto;
+    }
+
+    #products p, h3 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .conteudo {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .produto {
+        width: 150px;
+    }
+
+    section .container {
+        display: inline;
+    }
+
+    header {
+        width: 33%;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+        width: 200px;
+    }
+
+    #products ul {
+        display: grid;
+    }
+
+    #products {
+        margin-top: -110px;
+        margin-left: 10px;
+    }
+
+    #products p, h3 {
+        width: 300%;
+        text-align: left;
+    }
+
+    button {
+        width: 150px;
     }
 }
